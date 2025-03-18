@@ -14,10 +14,14 @@ This task involves using a multi-omic dataset of Breast Cancer samples from the 
 **Description:**  
 This task involves analyzing a multi-omic dataset of brain cancer samples, including LGG and GBM. The objective is to identify survival markers by leveraging mutation and copy number alteration data alongside clinical information. The dataset is preprocessed and split into training and testing sets.
 
-### Homework 3: Benchmarking Different Deep Learning Architectures and Omic Data Modalities for Cancer Cell Lines
+### Homework 3: Benchmarking Deep Learning Architectures on Multi-Omics Data
 
 **Description:**  
-This task focuses on benchmarking various deep learning models using multi-omic data from human cancer cell lines. Models are trained on one dataset and evaluated on another to assess generalizability. The assignment involves testing different deep learning architectures, combining multiple data modalities, and comparing fusion methods. The results are analyzed in a Jupyter notebook to determine the best-performing models and key predictive biomarkers.
+This task focuses on benchmarking various deep learning models using multi-omic data from human cancer cell lines sourced from the CCLE (Cancer Cell Line Encyclopedia) and GDSC (Genomics of Drug Sensitivity in Cancer) databases. The objective is to predict drug responses for “Erlotinib” by building models on the CCLE dataset and evaluating their performance on the GDSC dataset.
+
+The assignment involves testing different deep learning architectures, including at least two of the following: DirectPred, Supervised VAE, and GNN. Additionally, we will explore various combinations of omic data types, such as mutation, mutation + RNA, and mutation + CNV, testing at least two of these combinations. We will also compare different fusion methods, including early and intermediate fusion (note that GNNs only support early fusion).
+
+The results of these experiments will be analyzed in a Jupyter notebook to determine the best-performing models and identify key predictive biomarkers associated with drug responses.
 
 ## Acknowledgments
 
